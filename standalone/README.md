@@ -22,9 +22,9 @@
 - **`6.spot_camera.py`**: Spot 로봇의 body에 카메라를 부착하여 이미지 캡처
 
 ### 📈 데이터 수집 파이프라인
-- **`7.spot_auto_datacollector.py`**: Spot 로봇의 자동 데이터 수집 (LeRobot 스키마 준수)
+- **`7.spot_auto_datacollector.py`**: Spot 로봇의 자동 데이터 수집 (LeRobot 포맷)
 - **`7-1.spot_manual_datacollector.py`**: Spot 로봇의 수동 데이터 수집 (키보드 제어)
-- **`7-2.spot_continuous_sampler.py`**: Spot 로봇의 연속 샘플링 데이터 수집 (고급 기능)
+- **`7-2.spot_continuous_sampler.py`**: Spot 로봇의 연속 샘플링 데이터 수집
 
 ### 🔍 데이터 분석 도구
 - **`8.spot_data_analyzer.py`**: Spot LeRobot 데이터의 Parquet 파일을 분석하는 도구
